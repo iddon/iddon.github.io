@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1">
   <panorama id="node1">
-    <input levelbiashidpi="0.400" levelingpitch="0" width="960" levelingroll="0" leveltilesize="510" leveltileurl="tiles/pano_001/cf_%c/l_%l/c_%x/tile_%y.jpg" height="960" levelbias="0.400" overlap="1">
+    <input levelbiashidpi="0.400" levelingpitch="0" width="960" levelingroll="0" leveltilesize="510" leveltileurl="tiles/tiles_pano_001-cf_%c-l_%l-c_%x-%y.jpg" height="960" levelbias="0.400" overlap="1">
       <level preload="0" width="960" predecode="0" height="960"/>
       <level preload="1" width="480" predecode="1" height="480"/>
       <preview color="0x808080" strip="1"/>

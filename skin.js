@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.1/15068
 // Filename: iddon_notooltip.ggsk
-// Generated Пт апр 21 18:29:47 2017
+// Generated Пт апр 21 18:42:53 2017
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
