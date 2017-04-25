@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama id="node1">
-  <input levelingpitch="0" height="1920" levelbias="0.400" width="1920" leveltilesize="510" levelbiashidpi="0.400" leveltileurl="tiles/pano_001-cf_%c-l_%l-c_%x-%y.jpg" levelingroll="0" overlap="1">
-    <level height="1920" preload="0" width="1920" predecode="0"/>
-    <level height="960" preload="0" width="960" predecode="0"/>
-    <level height="480" preload="1" width="480" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start pan="0" fov="70" tilt="0"/>
-    <min pan="0" fov="5" tilt="-90"/>
-    <max pan="360" fov="120" tilt="90"/>
-  </view>
-  <userdata description="" tags="Со включенным верхним светом" info="" source="" title="" copyright="" latitude="" longitude="" comment="" datetime="" author=""/>
-  <hotspots height="20" width="180" wordwrap="1">
-    <label height="20" backgroundalpha="1" textalpha="1" enabled="1" bordercolor="0x000000" width="180" textcolor="0x000000" borderradius="1" background="1" border="1" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-    <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
-  </hotspots>
-  <media/>
-  <transition zoomin="0" zoomoutpause="1" softedge="0" type="crossdissolve" zoomfov="20" enabled="0" zoomout="0" blendtime="1" zoomspeed="2" blendcolor="0x000000"/>
-  <control lockedkeyboardzoom="0" hideabout="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextfullscreen="0" sensitivity="8" dblclickfullscreen="0"/>
-</panorama>
+<tour start="node2">
+  <panorama id="node1">
+    <input leveltileurl="tiles/pano_001-cf_%c-l_%l-c_%x-%y.jpg" levelingroll="0" levelbias="0.400" overlap="1" width="1920" leveltilesize="510" levelingpitch="0" height="1920" levelbiashidpi="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" fov="70"/>
+      <min tilt="-90" pan="0" fov="5"/>
+      <max tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata title="" datetime="" comment="" longitude="" description="" tags="iddon" copyright="Азат Асадуллин" source="" info="" latitude="" author="Азат Асадуллин"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" borderradius="1" background="1" backgroundcolor="0xffffff" width="180" enabled="1" border="1" height="20"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendcolor="0x000000" zoomfov="20" blendtime="1" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomout="0" enabled="0" softedge="0"/>
+    <control invertwheel="0" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltileurl="tiles/pano_002-cf_%c-l_%l-c_%x-%y.jpg" levelingroll="0" levelbias="0.400" overlap="1" width="1920" leveltilesize="510" levelingpitch="0" height="1920" levelbiashidpi="0.400">
+      <level predecode="0" width="1920" preload="0" height="1920"/>
+      <level predecode="0" width="960" preload="0" height="960"/>
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" fov="70"/>
+      <min tilt="-90" pan="0" fov="5"/>
+      <max tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata title="" datetime="" comment="" longitude="" description="" tags="iddon" copyright="Азат Асадуллин" source="" info="" latitude="" author="Азат Асадуллин"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" borderradius="1" background="1" backgroundcolor="0xffffff" width="180" enabled="1" border="1" height="20"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendcolor="0x000000" zoomfov="20" blendtime="1" zoomoutpause="1" zoomin="0" type="crossdissolve" zoomout="0" enabled="0" softedge="0"/>
+    <control invertwheel="0" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0" sensitivity="8"/>
+  </panorama>
+</tour>
