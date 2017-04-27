@@ -15,7 +15,7 @@ article,aside,details,figcaption,figure,footer,header,menu,nav,section {display:
 ol, ul {list-style:none;}
 img {vertical-align:top;}
 table {border-collapse:collapse; border-spacing:0;}
-html {background-color:#252525; -webkit-text-size-adjust:none;}
+html {background-color:#c1c1c1; -webkit-text-size-adjust:none;}
 body {font:14px "Arial", sans-serif; color:#999;}
 sup {vertical-align:text-top; font-size:10px;}
 sub {vertical-align:text-bottom;}
@@ -30,7 +30,7 @@ canvas {-ms-touch-action:double-tap-zoom;}
 * {box-sizing:border-box; transition-duration:.2s; transition-property:all; user-select:none; user-drag:none; cursor:default; pointer-events:none;}
 input[type="text"]::-ms-clear {display:none;}
 input[type="text"] {border:none;}
-hr {margin:5px 0 15px; padding:0; border:none; border-top:1px solid #333; opacity:.5;}
+hr {margin:5px 0 15px; padding:0; border:none; border-top:1px solid #474747; opacity:.5;}
 
 /** id: */
 #id {}
@@ -50,7 +50,7 @@ h5 {padding:1% 0; font-size:1.8em;}
 h6 {padding:1% 0; font-size:1.5em;}
 
 [rel="link"],
-[rel="link"]:hover {display:inline-block; padding:2px 5px; background:#fff; color:#000; text-decoration:none; vertical-align:top;}
+[rel="link"]:hover {display:inline-block; padding:2px 5px; background:#000; color:#fff; text-decoration:none; vertical-align:top;}
 
 
 /** */
@@ -92,7 +92,7 @@ h6 {padding:1% 0; font-size:1.5em;}
 .id--wrapper {margin:0 auto; max-width:840px;}
 
 .id--title {padding:5px 10px; min-width:150px; font-size:1.2em;}
-.id--link {display:inline-block; width:45vh; background:#000 center/cover; vertical-align:top;}
+.id--link {display:inline-block; width:45vh; background:#fff center/cover; vertical-align:top;}
 
 .id--icon {font-family:"WebSymbolsLigaRegular";}
 .id--events {pointer-events:auto;}
@@ -100,10 +100,10 @@ h6 {padding:1% 0; font-size:1.5em;}
 /** */
 .id-aside {position:fixed; top:10%; left:5%;}
 .id-nav {}
-.id-nav--logo {display:block; padding:0 5px; margin:0 0 40px; font-size:3em; text-decoration:none; color:#999;}
+.id-nav--logo {display:block; padding:0 5px; margin:0 0 40px; font-size:3em; text-decoration:none; color:#474747;}
 .id-nav--link {display:inline-block; margin:1px 0; padding:3px 5px; background:transparent; font-size:1.4em; text-decoration:none; text-transform:uppercase; vertical-align:top;}
 .id-nav--link.active,
-.id-nav--link:hover {background:#fff; color:#000;}
+.id-nav--link:hover {background:#000; color:#fff;}
 .id-section {padding:5% 0 0;}
 .id-article {padding:5% 5% 5% 20%;}
-.id-footer {padding:5%; text-align:center; color:#333;}
+.id-footer {padding:5%; text-align:center; color:#d6d6d6;}
