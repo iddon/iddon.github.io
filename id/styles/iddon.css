@@ -1,0 +1,109 @@
+/** Font: */
+@font-face{ 
+	font-family:"WebSymbolsLigaRegular";
+		src:url("../fonts/WebSymbolsLiga-Regular.eot");
+		src:url("../fonts/WebSymbolsLiga-Regular.eot?#iefix") format("embedded-opentype"),
+			url("../fonts/WebSymbolsLiga-Regular.woff") format("woff"),
+			url("../fonts/WebSymbolsLiga-Regular.ttf") format("truetype"),
+			url("../fonts/WebSymbolsLiga-Regular.svg#WebSymbolsRegular") format("svg");
+}
+
+/** Reset: */
+html,body {min-height:100%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video {border:0; font:inherit; font-size:100%; margin:0; padding:0; vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,menu,nav,section {display:block;}
+ol, ul {list-style:none;}
+img {vertical-align:top;}
+table {border-collapse:collapse; border-spacing:0;}
+html {background-color:#252525; -webkit-text-size-adjust:none;}
+body {font:14px "Arial", sans-serif; color:#999;}
+sup {vertical-align:text-top; font-size:10px;}
+sub {vertical-align:text-bottom;}
+caption, th, td {font-weight:400; text-align:left; vertical-align:top;}
+abbr,acronym {cursor:help;}
+iframe {border:none; overflow:hidden;}
+blockquote,
+q {quotes:'\00AB' '\00BB'; font-family:"Times New Roman", sans-serif; font-size:22px; font-style:italic;}
+p {padding:0 0 10px; line-height:1.5;}
+canvas {-ms-touch-action:double-tap-zoom;}
+:focus {outline:0;}
+* {box-sizing:border-box; transition-duration:.2s; transition-property:all; user-select:none; user-drag:none; cursor:default; pointer-events:none;}
+input[type="text"]::-ms-clear {display:none;}
+input[type="text"] {border:none;}
+hr {margin:5px 0 15px; padding:0; border:none; border-top:1px solid #333; opacity:.5;}
+
+/** id: */
+#id {}
+.id {}
+#don {}
+
+a:link,
+a:visited,
+a:active,
+a:hover {color:#fff; cursor:pointer; pointer-events:auto;}
+
+h1 {padding:1% 0; font-size:3em; text-transform:uppercase;}
+h2 {padding:1% 0; font-size:2.5em; text-transform:uppercase;}
+h3 {padding:1% 0; font-size:2.2em;}
+h4 {padding:1% 0; font-size:2em;}
+h5 {padding:1% 0; font-size:1.8em;}
+h6 {padding:1% 0; font-size:1.5em;}
+
+[rel="link"],
+[rel="link"]:hover {display:inline-block; padding:2px 5px; background:#fff; color:#000; text-decoration:none; vertical-align:top;}
+
+
+/** */
+.id--left  {float:left;}
+.id--right {float:right;}
+.id--text-right  {text-align:right;}
+.id--text-center {text-align:right;}
+.id--text-left   {text-align:left;}
+.id--absolute-left {right:100%; position:absolute;}
+.id--absolute-right {left:100%; position:absolute;}
+.id--width-200 {width:200px;}
+.id--col-1 {float:left; width:10%;}
+.id--col-2 {float:left; width:20%;}
+.id--col-3 {float:left; width:30%;}
+.id--col-4 {float:left; width:40%;}
+.id--col-5 {float:left; width:50%;}
+.id--col-6 {float:left; width:60%;}
+.id--col-7 {float:left; width:70%;}
+.id--col-8 {float:left; width:80%;}
+.id--col-9 {float:left; width:90%;}
+.id--col-10{float:left; width:100%;}
+
+/** */
+.id--21x1 {position:relative;}
+.id--21x1:before {display: block; content:""; width:100%; padding-top:42.8571428571%;}
+.id--16x9 {position:relative;}
+.id--16x9:before {display: block; content:""; width:100%; padding-top:56.25%;}
+.id--4x3 {position:relative;}
+.id--4x3:before {display: block; content:""; width:100%; padding-top:75%;}
+.id--3x2 {position:relative;}
+.id--3x2:before {display: block; content:""; width:100%; padding-top:66.6666666667%;}
+.id--8x5 {position:relative;}
+.id--8x5:before {display: block; content:""; width:100%; padding-top:62.5%;}
+
+.id--unloaded {opacity:0; visibility:hidden; transition:.3s ease opacity;}
+.id--unloaded[loaded="true"] {opacity:1; visibility:visible;}
+
+.id--container {position:relative; display:inline-block; padding:20px; width:100%; vertical-align:top;}
+.id--wrapper {margin:0 auto; max-width:840px;}
+
+.id--title {padding:5px 10px; min-width:150px; font-size:1.2em;}
+.id--link {display:inline-block; width:45vh; background:#000 center/cover; vertical-align:top;}
+
+.id--icon {font-family:"WebSymbolsLigaRegular";}
+.id--events {pointer-events:auto;}
+
+/** */
+.id-aside {position:fixed; top:10%; left:5%;}
+.id-nav {}
+.id-nav--logo {display:block; padding:0 5px; margin:0 0 40px; font-size:3em; text-decoration:none; color:#999;}
+.id-nav--link {display:inline-block; margin:1px 0; padding:3px 5px; background:transparent; font-size:1.4em; text-decoration:none; text-transform:uppercase; vertical-align:top;}
+.id-nav--link.active,
+.id-nav--link:hover {background:#fff; color:#000;}
+.id-section {padding:5% 0 0;}
+.id-article {padding:5% 5% 5% 20%;}
+.id-footer {padding:5%; text-align:center; color:#333;}
