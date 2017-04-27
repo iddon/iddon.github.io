@@ -55,7 +55,7 @@ $(document).ready(function(){
 
 function iddon(){
 	var c = '#';
-	var id = ['ffffff','171117','171111','171711','111711','1b1916','1b1616','1b1b16','161b16','16191b','19161b','1b161a'];
+	var id = ['ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff','ffffff'];
 	c += id[Math.floor(Math.random() * id.length)];
 	document.getElementById('don').style.background = c;
 }
