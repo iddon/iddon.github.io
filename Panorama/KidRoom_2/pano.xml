@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1">
+  <input leveltilesize="510" leveltileurl="tiles/Panorama_Detskoy/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="0.400" overlap="1" levelingpitch="0" levelbias="0.400" width="1500" height="1500" levelingroll="0">
+    <level preload="0" width="1500" height="1500" predecode="0"/>
+    <level preload="0" width="750" height="750" predecode="0"/>
+    <level preload="1" width="375" height="375" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0" pan="0" fov="90"/>
+    <min tilt="-90" pan="0" fov="45"/>
+    <max tilt="90" pan="360" fov="120"/>
+  </view>
+  <userdata copyright="" tags="Desktop" source="" info="" datetime="" latitude="" comment="" title="" author="" description="" longitude=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label textcolor="0x000000" backgroundalpha="1" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" background="1" textalpha="1" bordercolor="0x000000" width="180" height="20" borderradius="1" border="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" zoomin="0" blendtime="1" enabled="0" zoomout="0" softedge="0" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+  <autorotate noderandom="1" startloaded="0" speed="0.100" returntohorizon="0.000" useanimation="0" delay="5.00" nodedelay="0.00"/>
+  <control lockedkeyboardzoom="0" speedwheel="1" hideabout="0" invertcontrol="1" contextfullscreen="0" sensitivity="8" dblclickfullscreen="0" simulatemass="1" lockedwheel="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0"/>
+</panorama>
