@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<version>
+	<myprogram checksumm="05b2b2eb79c4f11834b25095acc047f9">1.0.7.88</myprogram>
+	<updater checksumm="aaef7c8a1f9437138acfc80fb2c4354b">1.0.0.7</updater>
+	<restart checksumm="d3904a3fe5ff2ab3a0f246bdde293345">1.0.1.9</restart>
+	<processesLibrary checksumm="2b999c9eb771374c87490f5dee5da9ec">1.0.1.10</processesLibrary>
+	<languagePack checksumm="d5724f066cea211eb5f0efb6365ba0c9">1.0.0.4</languagePack>
+	<Newtonsoft.Json checksumm="5619e5d4b93e544c7b9174c062f6c40b">6.0.1.17001</Newtonsoft.Json>
+	<Ionic.Zip checksumm="6ded8fcbf5f1d9e422b327ca51625e24">1.9.1.8</Ionic.Zip>
+</version>
