@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <version>
-     <myprogram>1.0.0.13</myprogram>
+	<myprogram checksumm="05b2b2eb79c4f11834b25095acc047f9">1.0.7.88</myprogram>
+	<updater checksumm="aaef7c8a1f9437138acfc80fb2c4354b">1.0.0.7</updater>
 </version>
