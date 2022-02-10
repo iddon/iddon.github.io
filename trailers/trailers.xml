@@ -1,0 +1,30 @@
+﻿<movies>
+  <movie 	
+	id="tt1856101"
+	title="Blade Runner 2049" 
+	date="2017-10-04"
+	plot="A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years." 
+	genre="Action, Drama, Mystery, Sci-Fi, Thriller" 
+	actors="Ryan Gosling, Ana de Armas, Harrison Ford, Dave Bautista" 
+	imdbRating="8.0" 
+	necjarRating=""
+	poster="https://drive.google.com/uc?export=download&id=1t51cHrkKInl6wlV8SCUsNdgzjI-9g9MA" 
+	trailer="https://drive.google.com/uc?export=download&id=1Ia4oQfzxzDV8WEBhrnnKoRz50zeWHEAa"
+	torrent="https://drive.google.com/uc?export=download&id=1Hj5vRtw-J9FefQ3tTpTpdhnGMSNqDmIf"
+  </movie>
+<movie>
+	id="tt1424381"
+	title="Predators"
+	date="2010-07-09"
+	plot="A group of elite warriors parachute into an unfamiliar jungle and are hunted by members of a merciless alien race." 
+	genre="Action, Adventure, Sci-Fi" 
+	actors="Adrien Brody, Laurence Fishburne, Danny Trejo" 
+	imdbRating="6.4" 
+	necjarRating=""
+	poster="https://drive.google.com/uc?export=download&id=1t51cHrkKInl6wlV8SCUsNdgzjI-9g9MA" 
+	trailer="https://drive.google.com/uc?export=download&id=1Ia4oQfzxzDV8WEBhrnnKoRz50zeWHEAa"
+	torrent="https://drive.google.com/uc?export=download&id=1Hj5vRtw-J9FefQ3tTpTpdhnGMSNqDmIf"
+</movie>
+
+
+</movies>
