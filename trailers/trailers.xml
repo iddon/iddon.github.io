@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<trailers xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <movies>
-  <movie>	
-	id="tt1856101"
+  <movie id="tt1856101"	
 	title="Blade Runner 2049" 
 	date="2017-10-04"
 	plot="A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years." 
@@ -10,12 +8,11 @@
 	actors="Ryan Gosling, Ana de Armas, Harrison Ford, Dave Bautista" 
 	imdbRating="8.0" 
 	necjarRating=""
-	poster="https://drive.google.com/uc?export=download&id=1t51cHrkKInl6wlV8SCUsNdgzjI-9g9MA" 
-	trailer="https://drive.google.com/uc?export=download&id=1Ia4oQfzxzDV8WEBhrnnKoRz50zeWHEAa"
-	torrent="https://drive.google.com/uc?export=download&id=1Hj5vRtw-J9FefQ3tTpTpdhnGMSNqDmIf"
-  </movie>
-<movie>
-	id="tt1424381"
+	poster="https://drive.google.com/uc?export=download\0026id=1t51cHrkKInl6wlV8SCUsNdgzjI-9g9MA" 
+	trailer="https://drive.google.com/uc?export=download\0026id=1Ia4oQfzxzDV8WEBhrnnKoRz50zeWHEAa"
+	torrent="https://drive.google.com/uc?export=download\0026id=1Hj5vRtw-J9FefQ3tTpTpdhnGMSNqDmIf"
+	/>
+  <movie id="tt1424381"
 	title="Predators"
 	date="2010-07-09"
 	plot="A group of elite warriors parachute into an unfamiliar jungle and are hunted by members of a merciless alien race." 
@@ -23,11 +20,8 @@
 	actors="Adrien Brody, Laurence Fishburne, Danny Trejo" 
 	imdbRating="6.4" 
 	necjarRating=""
-	poster="https://drive.google.com/uc?export=download&id=1DSc7dm7z33XZPcFCNuUQWDmHcOeaOUav" 
-	trailer="https://drive.google.com/uc?export=download&id=1RW0DDhMo-ZAYdI6VWYwKgfDbhiVjimH3"
-	torrent="https://drive.google.com/uc?export=download&id=1TU5fDZNe0d2d4GMnWW-phTAVUnIlo_Rr"
-</movie>
-
-
+	poster="https://drive.google.com/uc?export=download\0026id=1DSc7dm7z33XZPcFCNuUQWDmHcOeaOUav" 
+	trailer="https://drive.google.com/uc?export=download\0026id=1RW0DDhMo-ZAYdI6VWYwKgfDbhiVjimH3"
+	torrent="https://drive.google.com/uc?export=download\0026id=1TU5fDZNe0d2d4GMnWW-phTAVUnIlo_Rr"
+	/>
 </movies>
-</trailers>
